@@ -21,7 +21,7 @@ jobs:
         run: npm ci
       - name: Lint
         run: npm run biome:lint
-      - name: Format
-        run: npx biome format --check ./src
+      - name: Verify file format
+        run: npx biome check ./src
       - name: Build
         run: npm run build

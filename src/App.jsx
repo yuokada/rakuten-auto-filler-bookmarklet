@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import BookmarkletLink from './components/BookmarkletLink';
 import './App.css';
-import { InputText, CompanionNameInput, KanaInputs, NameInputs } from './components/InputText.jsx';
 import { Footer, Header } from './components/HeaderAndFooter.jsx';
+import { CompanionNameInput, InputText, KanaInputs, NameInputs } from './components/InputText.jsx';
 
 function App() {
   const [formData, setFormData] = useState({
