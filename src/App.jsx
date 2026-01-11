@@ -200,7 +200,7 @@ function App() {
     <>
       <Header />
       <main className={'flex flex-col items-center'}>
-        <form id="auto-filler-form" className={'w-full max-w-[600px] mb-8'}>
+        <form id="auto-filler-form" className={'w-full max-w-[600px] mb-8 bg-white'}>
           <table>
             <tbody>
               <tr>
@@ -476,7 +476,7 @@ function App() {
           id="generated-bookmarklet"
           type="text"
           className={
-            'border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500'
+            'border border-gray-300 rounded px-4 py-2 w-full bg-white focus:outline-none focus:ring-2 focus:ring-blue-500'
           }
           size="80"
           value={bookmarkletHref}
