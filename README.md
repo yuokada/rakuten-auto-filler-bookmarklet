@@ -5,6 +5,9 @@ This is a bookmarklet that automatically fills Rakuten's shopping site forms wit
 
 [楽天チケット 入力ヘルパー ブックマークレット](https://yuokada.github.io/rakuten-auto-filler-bookmarklet/)
 
+## Requirements
+- Node.js >= 22.12.0
+
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR.
