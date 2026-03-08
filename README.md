@@ -1,5 +1,12 @@
 # rakuten-auto-filler-bookmarklet
 
+> [!WARNING]
+> This application has been merged into the following repository:
+> 
+> https://github.com/yuokada/nogi-psyllium
+> 
+> https://github.com/yuokada/nogi-psyllium/pull/28
+
 ## Application
 This is a bookmarklet that automatically fills Rakuten's shopping site forms with pre-defined values.
 
